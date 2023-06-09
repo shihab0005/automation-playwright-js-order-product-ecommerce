@@ -7,7 +7,7 @@
 
 ## API Documentation:
 
- - https://documenter.getpostman.com/view/19668042/2s93m1a4WB
+ - http://192.168.0.103:50130/index.html#
 
 ## Screenshots 
 Successfully Order Palced
