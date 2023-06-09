@@ -11,7 +11,7 @@
 
 ## Screenshots
 
-![App Screenshot]([https://github.com/shihab0005/Booking-System-API-Practice-with-Newman/blob/main/Capture1.PNG?raw=true](https://raw.githubusercontent.com/shihab0005/automation-playwright-js-order-product-ecommerce/main/test-results/Registration-Registration-For-this-Site/test-finished-1.png))
+![App Screenshot](https://raw.githubusercontent.com/shihab0005/automation-playwright-js-order-product-ecommerce/main/test-results/Registration-Registration-For-this-Site/test-finished-1.png)
 ![App Screenshot](https://github.com/shihab0005/Booking-System-API-Practice-with-Newman/blob/main/Capture2.PNG?raw=true)
 
 ## Prerequisite:
