@@ -1,0 +1,16 @@
+8
+ Desktops
+ 
+ Laptops
+ 
+ Components
+ 
+ Tablets
+ 
+ Software
+ 
+ Phones & PDAs
+ 
+ Cameras
+ 
+lenPro = 15
