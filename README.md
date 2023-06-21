@@ -9,12 +9,10 @@ to Check Validity.Also User Can Successfully Logout.
 - Allure Report
 - Html Report
 
-## Video:
-
+## Video without POM:
 [lamda.webm](https://github.com/shihab0005/automation-playwright-js-order-product-ecommerce/assets/41753677/56015d02-6e51-458d-a83b-47342f49f578)
 
-
-## Screenshots 
+## Screenshots without POM
 Successfully Order Palced
 ![App Screenshot](https://github.com/shihab0005/automation-playwright-js-order-product-ecommerce/blob/main/output/test-finished-1.png?raw=true)
 
