@@ -1,34 +1,64 @@
-# automation-playwright-js-order-product-ecommerce
+# Ecommerce Site Automation With PlaywrightJs
+User Login With username and password and Select Product dynamically and add to Cart Product.
+Successfully purches product which is added to Cart with user details form fillup.There are use Some Assertion 
+to Check Validity.Also User Can Successfully Logout.
 
 ## Technology used:
 - Playwright JS
+- Page Object Model
 - Allure Report
 - Html Report
 
-## API Documentation:
+## Video:
 
- - http://192.168.0.103:50130/index.html#
+[lamda.webm](https://github.com/shihab0005/automation-playwright-js-order-product-ecommerce/assets/41753677/56015d02-6e51-458d-a83b-47342f49f578)
+
 
 ## Screenshots 
 Successfully Order Palced
-
-![App Screenshot](https://raw.githubusercontent.com/shihab0005/automation-playwright-js-order-product-ecommerce/main/test-results/Registration-Registration-For-this-Site/test-finished-1.png)
-![App Screenshot](https://github.com/shihab0005/automation-playwright-js-order-product-ecommerce/blob/main/test-results/Registration-Registration-For-this-Site/video.webm)
+![App Screenshot](https://github.com/shihab0005/ecommerce-site-automation-playwrightJS-page-object-model-allure-reports/blob/main/outputs/test-finished-1%20copy%202.png?raw=true)
+![App Screenshot](https://github.com/shihab0005/ecommerce-site-automation-playwrightJS-page-object-model-allure-reports/blob/main/outputs/test-finished-1%20copy.png?raw=true)
+![App Screenshot](https://github.com/shihab0005/ecommerce-site-automation-playwrightJS-page-object-model-allure-reports/blob/main/outputs/test-finished-1.png?raw=true)
+![App Screenshot](https://github.com/shihab0005/ecommerce-site-automation-playwrightJS-page-object-model-allure-reports/blob/main/outputs/Capture.PNG?raw=true)
 
 ## Prerequisite:
-
-- Jdk
 - Node Js
-- Newman
-- Html Report Libra
-- 
-## Newman and Report Installation Process:
+- VSCode
+  
+## Project Installation Process:
 
-- Newman Install Command:
+- Clone Project Command:
 ```bash
-   npm install -g newman
+   git clone https://github.com/shihab0005/ecommerce-site-automation-playwrightJS-page-object-model-allure-reports.git 
 ```
-- Newman Html Report Install Command:
+- Install All Project Package:
 ```bash
-  npm install -g newman-reporter-htmlextra
+  npm install  
 ```
+- Run Project:
+```bash
+  npx playwright test ProductPurches.spec.js
+```
+
+## Allure Report Generate Process:
+
+- Allure Report Package Install Command:
+```bash
+  npm i -D @playwright/test allure-playwright
+```
+- Allure Report Config Command:
+```bash
+ npx playwright test --reporter=line,allure-playwright  
+```
+- Generate Allure Report Command:
+```bash
+  allure generate allure-results -o allure-report --clean
+```
+- Open Allure Report Command:
+```bash
+  allure open allure-report
+```
+
+
+
+
