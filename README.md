@@ -34,7 +34,7 @@ Successfully Order Palced
 ```
 - Run Project:
 ```bash
-  npx playwright test ProductPurches.spec.js
+  npx playwright test Registration.spec.js
 ```
 
 ## Allure Report Generate Process:
