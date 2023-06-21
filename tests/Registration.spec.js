@@ -1,8 +1,7 @@
 import { test, expect } from "@playwright/test";
-import RegisterPMO from "../POM/RegisterPMO";
+
 import RegData from "../RegData.json";
-import LoginPMO from "../POM/LoginPMO";
-import LogoutPOM from "../POM/LogoutPOM";
+
 
 RegData.map((data) => {
   test(`Registration For this Site ${data.firstName}`, async ({ page }) => {
